@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title>中关村创业大街</title>  
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">   
+    <script src="js/jquery.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/common1.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+     <script src="js/index1.js"></script>
+    <script>
+      $('.carousel').carousel({
+         interval: 500,
+         pause:'hover',
+         next:true,
+         circle:true
+      })
+      $(function(){
+       var img1= $(".row-img-5-1 > img");
+      var imgWidtn= img1.width();
+      var imgHeight= img1.height();
+      console.log(imgWidtn);
+    $(".img5").width(imgWidtn);
+     $(".img5").height(imgHeight/2);
+      $(".img6").width(imgWidtn/2);
+     $(".img6").height(imgHeight/2);
+      $(".img7").width(imgWidtn/2);
+     $(".img7").height(imgHeight/2);
+
+      })
+    </script>
+
+</head>
+
+<body style="background-color:#f2f9fd;">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header ">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img class="col-xs-3 col-xs-offset-4 header-img1  " src="../images/logo.png" >
+    </div>   
+     <ul class="nav navbar-nav navbar-right col-xs-4 header-li">
+        <li ><a href="index-home.html">首页</a></li>
+        <li><a href="index-news.html">街区新闻</a></li>
+        <li><a href="index-org.html">入驻机构</a></li>
+        <li><a href="index-active.html">街区活动</a></li>
+        <li><a href="index-contact.html">联系我们</a></li>
+      </ul>  
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+     <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+   <div class="carousel-inner  container-fluid body-1" role="listbox">
+    <div class="item active">
+      <img src="../images/banner_n_07.jpg" alt="...">
+      <div class="carousel-caption">
+       
+      </div>
+    </div>
+    <div class="item">
+      <img src="../images/banner_10.jpg" alt="...">
+      <div class="carousel-caption">
+       
+      </div>
+    </div>
+     <div class="item">
+      <img src="../images/banner_12.jpg" alt="...">
+      <div class="carousel-caption">
+       
+      </div>
+    </div>
+     <div class="item">
+      <img src="../images/banner_n_07s.jpg" alt="...">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+ <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-1 row-1">街区新闻</div>
+      <div class="col-sm-4 col-sm-offset-1 "><img  class="body-3" src="../images/bng5.jpg" alt=""></div>
+      <div class="col-sm-4 col-sm-offset-3 bodyThird">
+      
+                              1111
+   
+        
+      </div>
+      <div class="col-sm-4 col-sm-offset-9 row-show">
+           <div class="pagelist">
+                   <a href="##" id="select"  class="current">上一页</a>
+                 <a href="##" id="select1"  class="current1">  1</a>
+                  <a href="##"  id="select2" class="current2">  2</a>
+                  <a href="##" id="select3" class="current3">3</a>
+                  <a href="##" id="select4"  class="current4">下一页</a>
+                  <a href="##" id="select5" class="current5">尾页</a>
+                  </div>
+      </div>
+     
+    </div>
+    <div class="row row-img4">     
+      <div class="col-sm-8 col-sm-offset-1 row-1">入驻机构</div>
+       <div class="row rowGov">
+      <div class="col-sm-3 col-sm-offset-1 row-img-4-1">
+          <img src="../images/1.gif" alt="" class="img-circle">
+          <span>1111</span>
+      </div>
+       <div class="col-sm-3 col-sm-offset-1 row-img-4-1">
+             <img src="../images/2.gif" alt="" class="img-circle">
+             <span>1111</span>
+        </div>
+        <div class="col-sm-3 col-sm-offset-1 row-img-4-1">
+            <img src="../images/3.gif" alt="" class="img-circle">
+            <span>1111</span>
+        </div>
+
+        <div class="col-sm-3 col-sm-offset-1 row-img-4-1">
+            <img src="../images/4.gif" alt="" class="img-circle">
+            <span>11117</span>
+        </div>
+       <div class="col-sm-3 col-sm-offset-1 row-img-4-1" >
+           <img src="../images/5.gif" alt="" class="img-circle">
+           <span>11117</span>
+       </div>
+        <div class="col-sm-3 col-sm-offset-1 row-img-4-1">
+            <img src="../images/6.gif" alt="" class="img-circle">
+            <span>1111</span>
+        </div>
+
+
+        <div class="col-sm-3 col-sm-offset-1 row-img-4-1">
+            <img src="../images/7.gif" alt="" class="img-circle">
+            <span>1111</span>
+        </div>
+       <div class="col-sm-3 col-sm-offset-1 row-img-4-1">
+           <img src="../images/8.gif" alt="" class="img-circle">
+           <span>1111</span>
+           </div>
+        <div class="col-sm-3 col-sm-offset-1 row-img-4-1">
+            <img src="../images/9.gif" alt="" class="img-circle">
+            <span>1111</span>
+        </div>
+    </div>
+    
+      </div>
+
+    
+   
+
+   <div class="row row-img5 rowFour">     
+          <div class="col-sm-8 col-sm-offset-1 row-1">街区活动
+          </div>
+          <div class="row showimg col-sm-12 col-sm-offset-1">
+             <div class="col-sm-6 row-img-5-1" style="background-image:url(../images/1.gif)">
+              <img src="../images/bng1.png" >
+          </div>            
+          <div class="col-sm-6 ">
+                
+                  <img src="../images/bng2.png"  class="img5">
+                    </div>
+      
+                       <div class="row"> 
+                       <div class="col-sm-6 ">
+                        <div class="col-sm-6 ">
+                            <img src="../images/bng3.png" class="img6" >
+                        </div>
+                        <div class="col-sm-6 ">
+                            <img src="../images/bng4.png" class="img7">
+                         </div>
+                    </div>
+                     </div>
+
+
+          </div>
+         
+            </div>
+         
+
+      <nav class="navbar navbar-default navbar-inverse navbar-fixed-bottom ">
+  <div class="container-fluid footer-1">
+    <div class="navbar-footer ">
+        版权所有：北京海置科创科技有限服务公司 京ICP备14017783号-1 京公网安备11010802017670
+      </div>
+  </div><!-- /.container-fluid -->
+</nav>
+</body>
+</html>

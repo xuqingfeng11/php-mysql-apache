@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding:0;
+}
+.header{
+	// font-size:0.20rem;
+	margin-bottom: 0.1rem;
+}
+.header-img1{
+	width:2rem;	
+}
+.header-li li:hover{
+background:skyblue;
+}
+#carousel-example-generic{
+	width:100%;
+	margin-top: 0.45rem;
+}
+.item img{
+	width: 100%;
+	height:100%;
+}
+.bodyOne{
+	width:100%;
+	height:2rem;
+	line-height: 2rem;
+	font-size:0.35rem;
+	text-align: center;
+	vertical-align: center;
+	color:white;
+	font-weight: bold;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+	background-image:linear-gradient(to right, #627387, #718291, #718291);
+}
+.footer-1{
+	color:white;
+	text-align:center;
+	line-height: 0.5rem;
+	
+}
+
+.trheader{
+	position:relative;
+	padding-top:0.2rem;
+}
+.tdheader{
+	position:absolute;
+	top:30%;
+	left:20%;
+}
+tr{
+	border:0.01rem solid #ccc;
+};
+// .divShow{
+// 	margin-bottom: 0.5rem;
+}
+.orgShow{
+	margin-bottom: 1rem;
+}
